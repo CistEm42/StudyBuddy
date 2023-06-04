@@ -14,4 +14,3 @@ urlpatterns = [
      path('delete-room/<str:pk>/', views.deleteRoom, name="delete-room"),
 
 ]
-urlpatterns = urlpatterns+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
